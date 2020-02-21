@@ -1,37 +1,32 @@
-$primaryColor: #1D7874;
-
 .app {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
+  width: 80%;
+  margin: 20px auto 0;
 }
-
 @media only screen and (max-width: 600px) {
   .app {
-      width: 90%;
-      margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
-
 .pagination {
-    margin-top: 5px;
-    margin-bottom: 25px;
-    overflow: auto;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  overflow: auto;
 
-    span {
-      cursor: pointer;
-      color: black;
-      float: left;
-      padding: 8px 16px;
-      text-decoration: none;
-      transition: background-color .3s;
-      border: 1px solid #ddd;
+  span {
+    cursor: pointer;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
 
-      &.active {
-        background-color: #0099FF;
-        color: white;
-        border: 1px solid #0099FF;
-      }
+    &.active {
+      background-color: #0099FF;
+      color: white;
+      border: 1px solid #0099FF;
     }
+  }
 }
